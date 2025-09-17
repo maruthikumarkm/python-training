@@ -1,0 +1,7 @@
+a= input("")
+res = ""
+for i in a:
+    if i.isalpha():
+        res += i
+resl = res.capitalize()
+print(resl)
